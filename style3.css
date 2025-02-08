@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.5)50%, rgba(0, 0, 0, 0.5)50%), url(ffbg.jpg.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+}
+
+form {
+    width: 400px;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgb(189, 189, 189);
+
+}
+
+fieldset {
+    border: none;
+}
+
+legend {
+    color: rgb(36, 224, 36);
+    font-weight: bold;
+    margin-bottom: 10px;
+    text-align: center;
+    font-size: 20px;
+}
+
+.form-group {
+    margin-bottom: 25px;
+}
+
+input[type='text'],
+input[type='email'],
+input[type='password'],
+input[type='submit'] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+input:focus {
+    outline: 3px solid rgb(36, 224, 36);
+}
+
+input[type='submit'] {
+    background-color: rgb(36, 224, 36);
+    color: white;
+    border: none;
+    border-radius: 50px;
+}
+
+.form-link {
+    text-align: center;
+}
+
+.form-link a {
+    text-decoration: none;
+    color: rgb(36, 224, 36);
+    font-weight: bold;
+}
+
+.form-link a:hover {
+    text-decoration: underline;
+}
